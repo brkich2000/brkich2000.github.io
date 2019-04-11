@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:900');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	font-family: 'Roboto', 'Arial', sans-serif;
+	color: #888888;
+	font-weight: 800;
+	margin-right: .6em;
+	text-align: center;
+	margin-top: 90px;
+	}
+
+header {
+	background-color: #ffffff;
+	padding: 1.7em;
+}
+
+body {
+	font-size: 16px; /*1em = 16px*/
+	line-height: 1.3;
+	margin: auto;
+	}
+
+footer {
+	padding: 3em;
+	margin: auto;
+	text-align: center;
+	color: #888888;
+}
+
+h1 {
+	font-family: 'Roboto', 'Arial', sans-serif;
+	color: #fff;
+	font-size: 3.75em;
+	}
+
+h2, 
+h3,
+h4 {
+	font-family: 'Open+Sans', 'Arial', sans-serif;
+	font-weight: 1.5em;
+	text-align: center;
+}
+
+a {
+	font-family: 'Roboto', 'Arial', sans-serif;
+	color: #FFB005;
+	text-decoration-line: none;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	font-family: 'Open+Sans', 'Arial', sans-serif;
+	text-align: center;
+}
+
+hr {
+	border:none;
+	height:2px;
+	background-color: #888888;
+	width:10em;
+	margin:1em auto;
+}
+
+/* Container holding the image and the text */
+.landing {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.work {
+	margin: auto;
+	max-width: 70em;
+	padding-top: 5em;
+}
+
+/* Centered text */
+#landtext {
+	max-width: 40em;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-decoration-color: #fff;
+}
+
+#portfolio {
+	margin: auto;
+	width: 80em;
+	text-align: center;
+	color: #444;
+	background-color: orange;
+}
+
+#nav-bar {
+
+}
