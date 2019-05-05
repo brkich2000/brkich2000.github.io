@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+	padding: 0;
+	margin: auto;
+	font-family: Raleway; Helvetica; Arial, Sans Serif;
+	box-sizing: content-box;
+}
+
+
+header {
+    background-color: yellow;
+    border: 1px black solid;
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+aside { 
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 150px;
+    text-align: center;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+ }
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+div / section {
+	background-color: #FFE2B8;
+	border: 10px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+nav {
+	color: #102;
+	font-family: 'Raleway', 'Helvetica', 'Arial', 'Sans-Serif';
+	margin: auto;
+	text-align:	center;
+
+	background-color: #E8C66A;
+	border: 1px black solid;
+	}
+
+header {
+	background-color: white;
+	padding: 1em;
+}
+
+body {
+	font-size: 16px; /*1em = 16px*/
+	line-height: 1.7;
+	margin: auto;
+	height: 100%;
+  	margin: 0;
+	}
+
+a {
+	text-decoration-line: none;
+	color: #102;
+	
+}
+
+footer {
+
+}
+
+h1{
+	font-size: 3em;
+	line-height: 1.2em;
+	text-align: center;
+	color: 102 102 102;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#nav-top {
+	padding: 0 2em;
+}
+
+#full-width {
+
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px 0;
+
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 70px 0;
+    float: left;
+    width: 25%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.team {
+	max-width: 50%;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  align-content: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+.column {
+    width: 100%;
+    grid-auto-columns: center;
+  }
+}
+
+.section-2 {
+	    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;   
+    width: 20%;
+    text-align: left;
+}
+
+.section-4{
+	width: 50%;
+	margin: auto;
+}
+
+.section-1,
+.section-3
+.section-5 {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: 100%;
+}
+
+#two_column {
+	max-height: 620px;
+	
+
+}
+
+#landingtext {
+	max-width: 40em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-decoration-color: #fff;
+}
+#mission_logo {
+	width: 70%;
+}
+#new_and_old {
+	padding: 70px 0;
+	width: 750px;
+		 
+}
+#full_page {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
